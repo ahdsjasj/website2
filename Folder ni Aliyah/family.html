@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Family</title>
+    <style>
+    body html{
+            background-color: rgb(145, 145, 132);
+    }
+
+    .parent {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 2px;
+}
+    
+.div2 {
+    grid-column-start: 4;
+    grid-row-start: 2;
+}
+
+.div3 {
+    grid-column-start: 3;
+    grid-row-start: 2;
+}
+
+.div4 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+
+.div5 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 3;
+    grid-row-start: 1;
+}
+
+.div6 {
+    grid-column: span 2 / span 2;
+    grid-column-start: 1;
+    grid-row-start: 1;
+}
+        
+        
+    .div2 img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+    }
+    .div3 img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+    }
+    .div4 img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+    }
+    .div5 img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+    }
+    .div6 img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+    }
+    </style>
+</head>
+<body>
+
+
+    <div class="parent">
+    <div class="div2">
+        <img src="family1.jpg" alt="Profile Picture" class="profile-image">
+    </div>
+    <div class="div3">
+        <img src="family2.jpg" alt="Profile Picture" class="profile-image">
+    </div>
+    <div class="div4">
+        <img src="family3.jpg" alt="Profile Picture" class="profile-image">
+    </div>
+    <div class="div5">
+        <img src="family4.jpg" alt="Profile Picture" class="profile-image">
+    </div>
+    <div class="div6">
+        <img src="family5.jpg" alt="Profile Picture" class="profile-image">
+    </div>
+    </div>
+    
+    
+    
+</body>
+</html>
